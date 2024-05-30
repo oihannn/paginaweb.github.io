@@ -1,0 +1,36 @@
+body {
+	background-color: lightblue;
+	
+	font-style: Arial;
+	
+	margin-right: 1cm;
+	
+	font-size: 10;
+	
+}
+
+h1 {
+	font-size: 14;
+	
+	color: green;
+	
+	font-weight: bold;
+	
+	
+}
+h3 {
+	text-align: center;
+	
+	color: 0047A1;
+	
+	font-weight: italic;
+	
+	
+}
+a {
+	font-size: 18;
+	
+	color: yellow;
+	
+	font-weight: italic;
+}

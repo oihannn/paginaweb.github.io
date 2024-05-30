@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>DATOS PERSONALES</title>
+		
+	</head>
+	<body>
+	<font face="Times New Roman">
+		<u><h1> DATOS PERSONALES</h1><u/>
+		<form>
+		<table border="0">
+			<tr>
+				<th colspan="2">
+					<u><label for="nombre">NOMBRE:</label></u>
+				</th>
+				<th colspan="2">
+					<u><label for="apellidos">APELLIDOS:</label></u>
+				</th>
+				<th>
+					<u><label for="direccion">DIRECCIÓN:</label></u>
+				</th>
+			</tr>
+			<tr>
+			<td colspan="2">
+					<input type="text" name="nombre" id="nombre" value="" size="40" maxlength="40"/>
+				</td>
+				<td colspan="2">
+					<input type="text" id="apellidos" value="" size="60" maxlength="60"/>
+				</td>
+				<td>
+					<input type="text" id="direccion" value="BILBAO" size="60" maxlength="60"/>
+				</td>
+			</tr>
+			<th colspan="2">
+					<u>IDIOMAS:</u>
+				</th>
+				<th colspan="2">
+					<u>EDAD:</u>
+				</th>
+				<th>
+					<u>ESTADO CIVIL:</u>
+				</th>
+			</tr>
+				<tr>
+				<td>
+					<label for="ingles">INGLÉS</label><br/>
+					<label for="frances">FRANCÉS</label><br/>
+					<label for="aleman">ALEMÁN</label>
+				</td>
+				<td>
+					<input type="checkbox" name="idiomas" id="ingles" value="ingles" checked="checked" /><br/>
+					<input type="checkbox" name="idiomas" id="frances" value="frances" /><br/>
+					<input type="checkbox" name="idiomas" id="aleman" value="aleman" />
+				</td>
+				<td>
+					<label for="menos18">MENOS DE 18:</label><br/>
+					<label for="entre19y39">ENTRE 19 Y 39:</label><br />
+					<label for="entre30y50">ENTRE 30 Y 50:</label><br />
+					<label for="masde50">MÁS DE 50:</label>
+				</td>
+				<td>
+					<input type="radio" name="edad" id="menos18" value="menos18" /><br/>
+					<input type="radio" name="edad" id="entre19y39" value="entre19y39" /><br/>
+					<input type="radio" name="edad" id="entre30y50" value="entre30y50" /><br/>
+					<input type="radio" name="edad" id="masde50" value="masde50" />
+				</td>
+				<td align="center">
+					<select>
+						<option value="soltero">SOLTERO</option>
+						<option value="casado">CASADO</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<p>
+			<input type="hidden" name="asunto" value="Nuevo ingreso"><br/>
+			<input type="reset" name="borrar" value="Borrar"><br /><br/>
+			<input type="file" name="foto" size="40">
+		</p>
+		</form>
+  </center>
+ </font>
+</body>
+</html>

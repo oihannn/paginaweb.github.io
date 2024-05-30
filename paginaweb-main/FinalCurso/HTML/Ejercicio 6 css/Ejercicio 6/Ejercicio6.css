@@ -1,0 +1,31 @@
+body {
+	background-color: orange;
+	
+	font-size: 10;
+	
+	margin-left: 2cm;
+	
+	margin-right: 2cm;
+	
+	margin-top: 3cm;
+	
+	margin-bottom: 3cm;
+}
+h1 {
+	font-size: 14;
+	
+	color: darkblue;
+	
+	letter-spacing: 6px;
+	
+	word-spacing: 2cm;
+
+}
+h2 {
+	font-size: 13;
+	
+	color: darkgreen;
+	
+	font-weight: bold;
+	
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto DAW1: nombre_alumno - Resumen Ejercicios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo del proyecto">
+        <h1>EJERCICIOS</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="content.html">Contenido</a></li>
+                <li><a href="register.html">Registro</a></li>
+                <li><a href="summary.html">Resumen Ejercicios</a></li>
+				
+            </ul>
+        </nav>
+    </header>
+
+    <section id="summary">
+        <h2>Resumen de Ejercicios</h2>
+        <div class="tabs">
+            <button class="tablinks" onclick="openTab(event, 'SinCSS')">Ejercicios sin CSS</button>
+            <button class="tablinks" onclick="openTab(event, 'ConCSS')">Ejercicios con CSS</button>
+        </div>
+
+        <div id="SinCSS" class="tabcontent">
+            <div class="exercise">
+                <a href="HTML/ejercicio1.html"><img src="img/ejercicio1.png" alt="Ejercicio1"></a>
+                
+            </div>
+            <div class="exercise">
+                <a href="HTML/ejercicio2.html"><img src="img/ejercicio2.png" alt="Ejercicio2"></a>
+                
+            </div>
+			
+            <div class="exercise">
+                <a href="HTML/ejercicio13.html"><img src="img/ejercicio13.png" alt="Ejercicio13"></a>
+                
+            </div>
+			<div class="exercise">
+                <a href="HTML/ejercicio18.html"><img src="img/ejercicio18.png" alt="Ejercicio18"></a>
+                
+            </div>
+            
+        </div>
+
+        <div id="ConCSS" class="tabcontent">
+            <div class="exercise">
+                <a href="ejercicio6.html/HTML/ejercicio6/HTML/ejercicio6.html"><img src="img/ejercicio6.png" alt="Ejercicio 6"></a>
+                <p>Ejercicio 5:.</p>
+            </div>
+            <div class="exercise">
+                <a href="HTML/ejercicio5.html"><img src="img/ejercicio5.png" alt="Ejercicio 5"></a>
+                <p>Ejercicio 6:</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <img src="img/qrcode.png" alt="Código QR">
+            <div>
+                <a href="https://twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+                <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="https://instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <p id="weather"></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
